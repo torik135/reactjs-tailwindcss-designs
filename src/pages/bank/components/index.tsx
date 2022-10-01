@@ -5,6 +5,7 @@ export * from './CardDeal';
 export * from './Clients';
 export * from './CTA';
 export * from './FeatureCard';
+export * from './FeedbackCard';
 export * from './Footer';
 export * from './GetStarted';
 export * from './Hero';
