@@ -2,7 +2,7 @@ import React from 'react';
 
 import './assets/css/index.css';
 
-import { Header, Hero, Techs, Testimonials, Contactus } from './components';
+import { Header, Hero, Techs, Testimonials, Contactus, Footer } from './components';
 
 const Webcompany: React.FC = () => {
   return (
@@ -17,6 +17,7 @@ const Webcompany: React.FC = () => {
         <hr className='mx-auto bg-black dark:bg-white w-1/2' />
         <Contactus/>
       </main>
+      <Footer/>
     </section>
   );
 };
