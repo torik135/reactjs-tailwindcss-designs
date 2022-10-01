@@ -2,7 +2,10 @@ import React from 'react';
 
 const Contactus: React.FC = () => {
   return (
-    <section id='contact' className='p-6 my-12 scroll-mt-16'>
+    <section
+      id='contact'
+      className='p-6 my-12 scroll-mt-16 widescreen:section-min-height tallscreen:section-min-height'
+    >
       <h2 className='text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white'>
         Contact Us
       </h2>
@@ -15,7 +18,7 @@ const Contactus: React.FC = () => {
           type='text'
           id='subject'
           name='subject'
-          requred
+          required
           minLength='3'
           maxLength='60'
           placeholder='type your subjects...'

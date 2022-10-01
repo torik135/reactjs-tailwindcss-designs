@@ -28,6 +28,8 @@ module.exports = {
       md: '1060px',
       lg: '1200px',
       xl: '1700px',
+      'widescreen': {'raw': '(min-aspect-ratio: 3/2)'},
+      'tallscreen': {'raw': '(min-aspect-ratio: 1/2)'},
     }
   },
   plugins: [],

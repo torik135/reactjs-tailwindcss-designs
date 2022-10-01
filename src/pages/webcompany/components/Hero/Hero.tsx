@@ -5,7 +5,7 @@ import { hero } from '../../assets';
 const Hero: React.FC = () => (
   <section
     id='hero'
-    className='flex flex-col-reverse justify-center sm:flex-row p-6 items-center gap-8 mb-[9em] mt-[5em] scroll-mt-20'
+    className='flex flex-col-reverse justify-center sm:flex-row p-6 items-center gap-8 mb-[9em] mt-[5em] scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height'
   >
     <article className='sm:w-1/2'>
       <h2 className='max-w-md text-4xl font-bold text-center sm:text-5xl sm:text-left text-slate-900 dark:text-white'>
