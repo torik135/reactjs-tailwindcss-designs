@@ -5,7 +5,7 @@ import styles from './style';
 
 import {
   Stats,
-  Bussiness,
+  Business,
   Billing,
   CardDeal,
   Clients,
@@ -34,7 +34,7 @@ const Bank: React.FC = memo(() => {
       <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Stats />
-          <Bussiness />
+          <Business />
           <Billing />
           <CardDeal />
           <Testimonials />
